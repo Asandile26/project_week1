@@ -15,7 +15,7 @@ header {
 .navbar ul {
     display: flex;
     list-style: none;
-    margin-left: 120;
+    margin-left: autocls;
 }
 .navbar ul li {
     padding: 20px;
@@ -23,6 +23,9 @@ header {
 .logo img {
     width: 20em;
 }
-ul {
+ul{
     margin-left: auto;
+}
+header.navbar ul {
+    margin-left: auto ;
 }
